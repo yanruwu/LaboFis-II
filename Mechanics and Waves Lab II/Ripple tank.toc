@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}1 Introduction}{1}%
+\contentsline {subsection}{\numberline {1.1}1.1 Propagation of surface waves in water}{1}%
+\contentsline {subsection}{\numberline {1.2}1.2 Interference and diffraction of surface waves}{2}%
+\contentsline {section}{\numberline {2}2 Material and Experimental Method}{3}%
+\contentsline {subsection}{\numberline {2.1}2.1 Material}{3}%
+\contentsline {subsection}{\numberline {2.2}2.2 Experimental method}{4}%
+\contentsline {subsubsection}{\numberline {2.2.1}2.2.1 Propagation of waves in water}{4}%
+\contentsline {subsubsection}{\numberline {2.2.2}2.2.2 Interference patterns}{4}%
+\contentsline {subsubsection}{\numberline {2.2.3}2.2.3 Diffraction patterns}{5}%
+\contentsline {section}{\numberline {3}3 Experimental Results and Questions}{5}%
+\contentsline {subsection}{\numberline {3.1}3.1 Propagation of waves in water}{5}%
+\contentsline {subsubsection}{\numberline {3.1.1}3.1.1 Regime of propagation}{5}%
+\contentsline {subsubsection}{\numberline {3.1.2}3.1.2 $\lambda $ of plane and circular waves}{6}%
+\contentsline {subsubsection}{\numberline {3.1.3}3.1.3 Phase velocity in terms of $\lambda $}{6}%
+\contentsline {subsubsection}{\numberline {3.1.4}3.1.4 Dispersion relation $\omega (\kappa )$ and group velocity}{7}%
+\contentsline {subsubsection}{\numberline {3.1.5}3.1.5 Group and phase velocities}{8}%
+\contentsline {subsection}{\numberline {3.2}3.2 Interference of surface waves}{9}%
+\contentsline {subsection}{\numberline {3.3}3.3 Diffraction of surface waves}{11}%
+\contentsline {subsubsection}{\numberline {3.3.1}3.3.1 One-slit diffraction pattern}{11}%
+\contentsline {subsubsection}{\numberline {3.3.2}3.3.2 Double-slit diffraction pattern}{13}%
+\contentsline {section}{\numberline {4}4 Conclusion}{13}%
+\contentsline {section}{\numberline {5}References}{14}%
+\contentsline {section}{\numberline {6}Appendix}{15}%
+\contentsline {subsection}{\numberline {6.1}A.1 Presentation of results}{15}%
+\contentsline {subsection}{\numberline {6.2}A.2 Error estimation}{15}%
+\contentsline {subsubsection}{\numberline {6.2.1}A.2.1 Direct measurements}{15}%
+\contentsline {subsubsection}{\numberline {6.2.2}A.2.2 Indirect measurements}{15}%
+\contentsline {subsubsection}{\numberline {6.2.3}A.2.3 Other error computations and deviations}{16}%
+\contentsfinish 
