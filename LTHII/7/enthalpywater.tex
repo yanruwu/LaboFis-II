@@ -1,0 +1,149 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{titling}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{chngpage}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{chngcntr}
+\graphicspath{ {figs/} }
+\usepackage{indentfirst}
+\usepackage{relsize}
+\usepackage[margin=3.7cm]{geometry}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{hhline}
+\usepackage{titletoc}
+\usepackage{afterpage}
+\usepackage{hyperref, url}
+\usepackage{caption} 
+\usepackage{float}
+
+\captionsetup[table]{skip=10pt}
+
+\setlength{\droptitle}{-15em}
+
+\titleformat{\chapter}[display]
+{\normalfont\bfseries}{}{0pt}{\LARGE}
+\titleformat{\section}[display]
+{\normalfont\bfseries}{}{0pt}{\LARGE}
+\titleformat{\subsection}[display]
+{\normalfont\bfseries}{}{0pt}{\Large}
+\titleformat{\subsubsection}[display]
+{\normalfont\bfseries}{}{0pt}{\large}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{VAP. ENTHALPY OF WATER}
+\fancyhead[R]{M. de Miguel and Y. Wu}
+\fancyfoot[c]{\thepage}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\vfill
+		\Large{COMPLUTENSE UNIVERSITY OF MADRID \\ \textbf{FACULTY OF PHYSICAL SCIENCES}}
+		\vfill
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[height=7cm]{cumphysics}
+		\end{figure}
+		\vfill 
+		\textbf{\Large{LABORATORY OF THERMODYNAMICS:}}
+		\rule [5pt]{14cm}{2pt}\\
+		\LARGE{\textbf{DETERMINATION OF THE ENTHALPY OF VAPORISATION OF WATER}} \\
+		\rule [8pt]{14cm}{2pt}\\
+		\vfill
+		\vfill
+		\vfill
+		\vfill
+		
+		\large{Mario de Miguel Domínguez and YanRu Wu Jin\\ Bachelor's Degree in Physics, 2\textsuperscript{nd} Year, Group 14\\ Experience date: 30\textsuperscript{th} of March, 2022\\ Delivery date: 30\textsuperscript{th} of March, 2022}
+		\vfill
+		\vfill
+		\vfill
+		\vfill
+		
+		\afterpage{\blankpage}
+	\end{titlepage}
+	
+	\makeatletter
+	\thispagestyle{empty}
+	\addtocounter{page}{-1}
+	\let\latexl@section\l@section
+	\def\l@section#1#2{\begingroup\let\numberline\@gobble\latexl@section{#1}{#2}\endgroup}
+	\let\latexl@subsection\l@subsection
+	\def\l@subsection#1#2{\begingroup\let\numberline\@gobble\latexl@subsection{#1}{#2}\endgroup}
+	\let\latexl@subsubsection\l@subsubsection
+	\def\l@subsubsection#1#2{\begingroup\let\numberline\@gobble\latexl@subsubsection{#1}{#2}\endgroup}
+	\makeatother
+	\tableofcontents	
+	\thispagestyle{empty}
+	\afterpage{\blankpage}
+	\newpage
+	\section{1 Introduction}
+	This assignment is aimed at the determination of the enthalpy of vaporisation of water.
+	\section{2 Theoretical basis}
+	When a liquid substance is at boiling temperature, it yet needs to absorb a certain amount of heat in order to acquire its vapour phase (this may be referred as $Q$). An electrical resistance may be in charge of transmitting this thermal energy to the substance. Recall that for a given current $I$ circulating through an electrical resistance at a potential difference $V$, the Joule effect implies the resistance shall emmit a certain amount of heat
+	\begin{equation*}\label{qjoule}
+		Q = I^2 R T= I V T, 
+	\end{equation*}
+	and so the resistor shall transfer a power of the form 
+	\begin{equation}\label{pjoule}
+		W = \dot{Q} = I V.
+	\end{equation}
+Considering this heat to be the agent of the vaporisation of a fixed amount of water $\Delta m$ over a period of time $\Delta t$, the enthalpy of vaporisation of water may be obtained with the help of the expression
+\begin{equation}\label{enthalpprimitive}
+	W = \frac{\Delta m}{\Delta t} \Delta H_v + \dot{Q_p},
+ \end{equation}
+$\dot{Q_p}$ being the total heat loss by the system. This latter quantity may be considered to be independent of the applied power $W$.
+\section{3 Material and Experimental method}
+\subsection{3.1 Material}
+This assignment shall be performed with the help of the following items:
+\begin{itemize}
+	\item Glass flask
+	\item Condenser tube
+	\item Beakers
+	\item Voltmeter
+	\item Ammeter
+	\item Heating resistor
+	\item Variable voltage transformer
+\end{itemize}
+\subsection{3.2 Experimental Method}
+
+\section{4 Results and questions}
+This section is dedicated to the presentation of the results obtained throughout the practical, as well as the answers to the questions raised in the guide. For more information on the considered uncertainties, please refer to the appendix.
+\subsection{4.1 Question 1}
+%TABLES AND PLOTS: GET I-V PAIRS AND MASSES IN ONE TABLE AND POWER FLUX IN ANOTHER THEN PLOT WITH LINEAR EXCEL IF TIME MATLAB / PYTHON 
+\subsection{4.2 Question 2}
+It is not necessary to start with the highest power, but it is of convenience since this way the water in the flask will raise its temperature faster, and so it shall reach its boiling point sooner than if one started measuring with the lower powers. \\
+
+When decreasing the power, one must be careful to make sure this never gets below the enthalpy value (which is unknown), as this would stop water from boiling since it would not absorb enough heat.
+
+\subsection{4.3 Question 3}
+
+\subsection{4.4 Question 4}
+
+\section{5 Conclusion}
+
+\newpage
+\section{Appendix}
+\subsection{A.1 Error estimation}
+\subsubsection{A.1.1 Direct measurements}
+The error of the direct measurements has been considered to be the precision of the used devices e.g. 1 V for the voltmeter readings or 0.1 g for the balance. 
+\subsubsection{A.1.2 Indirect measurements}
+The formulae used to compute indiret measurements' uncertainties are the following:
+\begin{align}\label{dp}
+	\Delta W &= \sqrt{(V\Delta I)^2 + (I \Delta V)^2} \\
+	\Delta (\Delta m) &= \sqrt{(\Delta m_b)^2 + (\Delta m_T)^2} \\
+	\Delta \left(\frac{\Delta m}{\Delta t}\right) &= \sqrt{\left[\frac{\Delta (\Delta m)}{\Delta t}\right]^2 + \left[\frac{\Delta m \Delta (\Delta t)}{(\Delta t)^2}\right]^2}
+\end{align}
+\end{document}
